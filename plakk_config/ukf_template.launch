@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="robot_localization" type="ukf_localization_node" name="ukf_se" clear_params="true">
+    <rosparam command="load" file="/home/alexb/plakk_volume_reconstruction/plakk_config/ukf_template.yaml" />
+  </node>
+</launch>

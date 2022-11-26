@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="rosbag" type="record" name="outputRecord" output="screen" args= "/odometry/filtered -O /home/alexb/plakk_data/camPoses.bag"/>    
+</launch>
